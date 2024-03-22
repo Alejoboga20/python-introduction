@@ -22,3 +22,11 @@ print(my_set)  # Output: {1, 2, 4, 5}
 
 # Remove all the elements
 my_set.clear()
+
+"""
+Tuples are ordered and unchangeable. We can't add or remove items from a tuple.
+"""
+
+my_tuple = ("apple", "banana", "cherry")
+print(my_tuple)  # Output: ('apple', 'banana', 'cherry')
+print(my_tuple[1])  # Output: banana
